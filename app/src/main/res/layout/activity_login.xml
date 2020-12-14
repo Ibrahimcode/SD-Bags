@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
+    android:background="@drawable/handmade"
+
     tools:context=".LoginActivity">
 
     <ImageView
@@ -115,7 +116,8 @@
         android:textStyle="bold"
         android:layout_marginLeft="80dp"
         android:layout_marginEnd="23dp"
-        />
+        android:layout_marginRight="23dp"
+        android:layout_alignParentRight="true" />
 
 
     <TextView
@@ -131,6 +133,6 @@
         android:layout_marginLeft="80dp"
         android:layout_marginStart="25dp"
         android:visibility="invisible"
-        />
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>

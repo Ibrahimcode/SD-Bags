@@ -1,13 +1,15 @@
 package com.example.sdbags.viewholder;
 
-import android.support.v7.widget.RecyclerView;
+//import android.RecyclerView;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.sdbags.ItemClickListener;
 import com.example.sdbags.R;
-
 import org.w3c.dom.Text;
 
 public class ProductViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
@@ -28,9 +30,9 @@ public class ProductViewHolder extends RecyclerView.ViewHolder implements View.O
         txtProductPrice = (TextView) itemView.findViewById(R.id.product_price);
     }
 
-    public void setItemClickListener(ItemClickListener listener)
+    public void setItemClickListner(ItemClickListener listner)
     {
-        this.listner = listener;
+        this.listner = listner;
     }
 
     @Override

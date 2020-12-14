@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,7 +21,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimary"
-            />
+            android:gravity="center_horizontal" />
 
         <ImageView
             android:id="@+id/product_image"
@@ -41,7 +41,7 @@
             android:textAlignment="center"
             android:textSize="18dp"
             android:textColor="@color/colorPrimaryDark"
-            />
+            android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/product_description"
@@ -53,8 +53,8 @@
             android:textAlignment="center"
             android:textSize="16dp"
             android:textColor="@color/colorPrimaryDark"
-            />
+            android:gravity="center_horizontal" />
 
     </RelativeLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
